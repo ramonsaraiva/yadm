@@ -64,3 +64,5 @@ export PATH=$PATH:"$HOME/Applications"
 set -o vi
 
 . "$HOME/.local/share/../bin/env"
+
+export EDITOR=nvim
