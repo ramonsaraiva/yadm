@@ -38,3 +38,5 @@
 	rebase = true
 [init]
 	defaultBranch = master
+[safe]
+	directory = /home/ramon/.local/share/omarchy

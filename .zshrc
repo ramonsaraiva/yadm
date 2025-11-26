@@ -60,6 +60,10 @@ source $HOME/.cargo/env
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:"$HOME/.local/bin"
 export PATH=$PATH:"$HOME/Applications"
+export PATH=$PATH:"$HOME/.local/share/omarchy/bin"
+export OMARCHY_PATH="$HOME/.local/share/omarchy"
+export OMARCHY_INSTALL="$OMARCHY_PATH/install"
+export OMARCHY_INSTALL_LOG_FILE="/var/log/omarchy-install.log"
 
 set -o vi
 
