@@ -7,7 +7,7 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: 'CaskaydiaMono Nerd Font';
+  font-family: 'JetBrainsMono Nerd Font';
   font-size: 12px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 #custom-expand-icon {
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 tooltip {
@@ -80,4 +80,18 @@ tooltip {
 
 #custom-screenrecording-indicator.active {
   color: #a55555;
+}
+
+#custom-claude-code {
+  padding: 0 10px;
+  margin: 0 2px;
+  color: inherit;
+}
+
+#custom-claude-code:hover {
+  color: #ff8c00;
+}
+
+tooltip {
+  font-family: "MesloLGSDZ Nerd Font", monospace;
 }
